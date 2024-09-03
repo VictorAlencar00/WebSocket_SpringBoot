@@ -13,7 +13,7 @@ import lombok.Setter;
 @Builder
 public class ChatMessage {
     
+    private MessageType type;
     private String content;
     private String sender;
-    private MessageType type;
 }

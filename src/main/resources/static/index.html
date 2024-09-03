@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="username-screen">
+        <h1>Local Chat</h1>
+        <form action="" id="username-form" class="username-form">
+          <h2>Choose your username:</h2>
+          <input id="username-input" type="text" required />
+          <button type="submit">Confirm</button>
+        </form>
+      </div>
+
+      <div class="messages-screen hidden">
+        <h1>Local Chat</h1>
+        <ul id="messages-area" class="messages-area"></ul>
+        <form action="" id="message-form">
+          <input
+            type="text"
+            name=""
+            id="message-input"
+            placeholder="Type a message..."
+          />
+          <button type="submit">
+            <img src="img/send (3).png" alt="" srcset="" />
+          </button>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
