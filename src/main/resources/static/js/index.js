@@ -63,8 +63,10 @@ function onMessageRecieved(payload) {
 
   if (message.type === "JOIN") {
     messageElement.textContent = `${message.sender} joined!`;
+    messageElement.classList.add("join-message");
   } else if (message.type === "LEAVE") {
     messageElement.textContent = `${message.sender} left!`;
+    messageElement.classList.add("left-message");
   } else {
     const textElement = document.createElement("p");
     const textMessage = document.createTextNode(message.content);

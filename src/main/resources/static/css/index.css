@@ -59,7 +59,7 @@ button {
 }
 
 button {
-  background-color: #e163d4;
+  background-color: #9858ed;
   color: white;
   font-size: large;
 }
@@ -148,9 +148,10 @@ button {
   width: 30px;
   background-color: white;
 }
+
 .messages-screen button img {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 ul {
@@ -184,4 +185,12 @@ p {
 
 .recieved-message p {
   background-color: #9858ed;
+}
+
+.join-message {
+  color: rgb(24, 139, 24);
+}
+
+.left-message {
+  color: red;
 }
